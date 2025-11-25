@@ -1,152 +1,32 @@
 [
-    {
-        "date": "2025-09-15",
-        "title": "Inicio de Curso",
-        "type": "event"
-    },
-    {
-        "date": "2025-11-24",
-        "title": "Examen Geografía e Historia",
-        "type": "exam"
-    },
-    {
-        "date": "2025-11-24",
-        "title": "Charla Policias",
-        "type": "event"
-    },
-    {
-        "date": "2025-12-02",
-        "title": "Examen Fisica Quimica",
-        "type": "exam"
-    },
-    {
-        "date": "2025-12-06",
-        "title": "Día de la Constitución",
-        "type": "holiday"
-    },
-    {
-        "date": "2025-12-08",
-        "title": "Inmaculada Concepción",
-        "type": "holiday"
-    },
-    {
-        "date": "2025-12-10",
-        "title": "Examen Lengua",
-        "type": "exam"
-    },
-    {
-        "date": "2025-12-12",
-        "title": "Examen Ingles",
-        "type": "exam"
-    },
-    {
-        "date": "2025-12-20",
-        "title": "Inicio Vacaciones Navidad",
-        "type": "holiday"
-    },
-    {
-        "date": "2025-12-24",
-        "title": "Nochebuena",
-        "type": "holiday"
-    },
-    {
-        "date": "2025-12-25",
-        "title": "Navidad",
-        "type": "holiday"
-    },
-    {
-        "date": "2025-12-31",
-        "title": "Nochevieja",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-01-01",
-        "title": "Año Nuevo",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-01-06",
-        "title": "Reyes",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-01-07",
-        "title": "No hay colegio",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-03-27",
-        "title": "Inicio Semana Santa",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-04-02",
-        "title": "Jueves Santo",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-04-03",
-        "title": "Viernes Santo",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-04-06",
-        "title": "Fin Semana Santa",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-05-01",
-        "title": "Fiesta del Trabajo",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-05-02",
-        "title": "Comunidad de Madrid",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-05-15",
-        "title": "San Isidro",
-        "type": "holiday"
-    },
-    {
-        "date": "2026-06-19",
-        "title": "Fin de Curso",
-        "type": "event"
-    },
-    {
-        "date": "2025-12-05",
-        "title": "Entregar Trabajo voluntario de Biologia",
-        "type": "event"
-    }, 
-    {
-        "date": "2025-12-02",
-        "title": "Entregar Proyecto Biologia",
-        "type": "event"
-    },
-    {
-        "date": "2025-12-05",
-        "title": "Examen Reuperación Tema 1, 2 de Mate",
-        "type": "exam"
-    },
-    {
-        "date": "2025-12-09",
-        "title": "Examen Biologia",
-        "type": "exam"
-    },
-    {
-        "date": "2025-12-09",
-        "title": "Revision Cuadernos Biologia",
-        "type": "event"
-    },
-    {
-        "date": "2025-12-11",
-        "title": "Examen Matematicas Ecuaciones de 1º y 2º Grado",
-        "type": "exam"
-    }
-
+  {"date":"2025-09-15","title":"Inicio de Curso","type":"event"},
+  {"date":"2025-11-24","title":"Examen Geografía e Historia","type":"exam"},
+  {"date":"2025-11-24","title":"Charla Policías","type":"event"},
+  {"date":"2025-12-02","title":"Examen Física y Química","type":"exam"},
+  {"date":"2025-12-02","title":"Entregar Proyecto Biología","type":"event"},
+  {"date":"2025-12-05","title":"Entregar Trabajo voluntario de Biología","type":"event"},
+  {"date":"2025-12-05","title":"Examen Recuperación Tema 1 y 2 de Matemáticas","type":"exam"},
+  {"date":"2025-12-05","title":"Revisión Cuadernos Física y Química","type":"exam"},
+  {"date":"2025-12-06","title":"Día de la Constitución","type":"holiday"},
+  {"date":"2025-12-08","title":"Inmaculada Concepción","type":"holiday"},
+  {"date":"2025-12-09","title":"Examen Biología","type":"exam"},
+  {"date":"2025-12-09","title":"Revisión Cuadernos Biología","type":"event"},
+  {"date":"2025-12-10","title":"Examen Lengua","type":"exam"},
+  {"date":"2025-12-11","title":"Examen Matemáticas: Ecuaciones de 1.º y 2.º grado","type":"exam"},
+  {"date":"2025-12-12","title":"Examen Inglés","type":"exam"},
+  {"date":"2025-12-20","title":"Inicio Vacaciones de Navidad","type":"holiday"},
+  {"date":"2025-12-24","title":"Nochebuena","type":"holiday"},
+  {"date":"2025-12-25","title":"Navidad","type":"holiday"},
+  {"date":"2025-12-31","title":"Nochevieja","type":"holiday"},
+  {"date":"2026-01-01","title":"Año Nuevo","type":"holiday"},
+  {"date":"2026-01-06","title":"Reyes","type":"holiday"},
+  {"date":"2026-01-07","title":"No hay colegio","type":"holiday"},
+  {"date":"2026-03-27","title":"Inicio Semana Santa","type":"holiday"},
+  {"date":"2026-04-02","title":"Jueves Santo","type":"holiday"},
+  {"date":"2026-04-03","title":"Viernes Santo","type":"holiday"},
+  {"date":"2026-04-06","title":"Fin Semana Santa","type":"holiday"},
+  {"date":"2026-05-01","title":"Fiesta del Trabajo","type":"holiday"},
+  {"date":"2026-05-02","title":"Comunidad de Madrid","type":"holiday"},
+  {"date":"2026-05-15","title":"San Isidro","type":"holiday"},
+  {"date":"2026-06-19","title":"Fin de Curso","type":"event"}
 ]
-
-
-
-
