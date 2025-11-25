@@ -6,7 +6,7 @@
   {"date":"2025-12-02","title":"Entregar Proyecto Biología","type":"event"},
   {"date":"2025-12-05","title":"Entregar Trabajo voluntario de Biología","type":"event"},
   {"date":"2025-12-05","title":"Examen Recuperación Tema 1 y 2 de Matemáticas","type":"exam"},
-  {"date":"2025-12-05","title":"Revisión Cuadernos Física y Química","type":"exam"},
+  {"date":"2025-12-05","title":"Revisión Cuadernos Física y Química","type":"event"},
   {"date":"2025-12-06","title":"Día de la Constitución","type":"holiday"},
   {"date":"2025-12-08","title":"Inmaculada Concepción","type":"holiday"},
   {"date":"2025-12-09","title":"Examen Biología","type":"exam"},
@@ -30,3 +30,4 @@
   {"date":"2026-05-15","title":"San Isidro","type":"holiday"},
   {"date":"2026-06-19","title":"Fin de Curso","type":"event"}
 ]
+
