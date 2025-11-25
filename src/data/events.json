@@ -123,7 +123,28 @@
         "date": "2025-12-02",
         "title": "Entregar Proyecto Biologia",
         "type": "event"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Examen Reuperación Tema 1, 2 de Mate",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-09",
+        "title": "Examen Biologia",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-09",
+        "title": "Revision Cuadernos Biologia",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-10",
+        "title": "Examen Lengua",
+        "type": "exam"
     }
 
 ]
+
 
