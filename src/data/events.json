@@ -113,6 +113,17 @@
         "date": "2026-06-19",
         "title": "Fin de Curso",
         "type": "event"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Entregar Trabajo voluntario de Biologia",
+        "type": "event"
+    }, 
+    {
+        "date": "2025-12-02",
+        "title": "Entregar Proyecto Biologia",
+        "type": "event"
     }
 
 ]
+
