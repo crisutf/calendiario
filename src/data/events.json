@@ -10,10 +10,12 @@
   {"date":"2025-12-06","title":"Día de la Constitución","type":"holiday"},
   {"date":"2025-12-08","title":"Inmaculada Concepción","type":"holiday"},
   {"date":"2025-12-09","title":"Examen Biología","type":"exam"},
+  {"date":"2025-12-09","title":"Examen Tecnologia","type":"exam"},
   {"date":"2025-12-09","title":"Revisión Cuadernos Biología","type":"event"},
   {"date":"2025-12-10","title":"Examen Lengua","type":"exam"},
   {"date":"2025-12-11","title":"Examen Matemáticas: Ecuaciones de 1.º y 2.º grado","type":"exam"},
   {"date":"2025-12-12","title":"Examen Inglés","type":"exam"},
+  {"date":"2025-12-15","title":"Examen Geografia e Historia","type":"exam"},
   {"date":"2025-12-20","title":"Inicio Vacaciones de Navidad","type":"holiday"},
   {"date":"2025-12-24","title":"Nochebuena","type":"holiday"},
   {"date":"2025-12-25","title":"Navidad","type":"holiday"},
@@ -30,4 +32,5 @@
   {"date":"2026-05-15","title":"San Isidro","type":"holiday"},
   {"date":"2026-06-19","title":"Fin de Curso","type":"event"}
 ]
+
 
