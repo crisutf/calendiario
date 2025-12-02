@@ -18,6 +18,7 @@
   {"date":"2025-12-11","title":"Examen Matemáticas: Ecuaciones de 1.º y 2.º grado","type":"exam"},
   {"date":"2025-12-12","title":"Examen Inglés","type":"exam"},
   {"date":"2025-12-15","title":"Examen Geografia e Historia","type":"exam"},
+  {"date":"2025-12-19","title":"Vacaciones de Navidad","type":"holiday"},
   {"date":"2025-12-20","title":"Inicio Vacaciones de Navidad","type":"holiday"},
   {"date":"2025-12-24","title":"Nochebuena","type":"holiday"},
   {"date":"2025-12-25","title":"Navidad","type":"holiday"},
@@ -34,3 +35,4 @@
   {"date":"2026-05-15","title":"San Isidro","type":"holiday"},
   {"date":"2026-06-19","title":"Fin de Curso","type":"event"}
 ]
+
