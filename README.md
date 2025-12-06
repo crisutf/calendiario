@@ -1,16 +1,75 @@
-# React + Vite
+# 📅 Calendario Escolar — Crisutf
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **calendario escolar** diseñado para informar a los alumnos sobre **exámenes, entregas, excursiones, festivos** y otros eventos importantes del curso.
 
-Currently, two official plugins are available:
+## 🌐 URLs del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Página principal: **[https://crisu.qzz.io/](https://crisu.qzz.io/)**
+- Alternativa/hosting: **[https://calendario-escolar.pages.dev](https://calendario-escolar.pages.dev)**
 
-## React Compiler
+## 🛠️ Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Vite**
+- **React**
+- **TailwindCSS**
 
-## Expanding the ESLint configuration
+La web es rápida, ligera y fácil de actualizar.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✏️ Cómo añadir o editar eventos
+
+Los eventos están almacenados en el archivo:
+
+```
+src/data/events.json
+```
+
+Cada evento debe seguir esta estructura:
+
+```json
+{"date": "AAAA-MM-DD", "title": "Nombre del evento", "type": "event|exam|holiday"}
+```
+
+### 🔍 Explicación de los campos
+
+- **date** → Fecha en formato `Año-Mes-Día` (ejemplo: `2025-03-18`).
+- **title** → Nombre del evento.
+- **type** → Tipo de evento:
+  - `event` → Azul. Para entregas, excursiones o actividades.
+  - `exam` → Rojo. Para exámenes.
+  - `holiday` → Verde. Para festivos como Navidad, Semana Santa, etc.
+
+### 📌 Ejemplo
+
+```json
+{"date": "2025-02-14", "title": "Examen de Matemáticas", "type": "exam"}
+```
+
+---
+
+## 📖 Descripción del proyecto
+
+Este calendario permite a los alumnos estar informados de todo lo importante durante el curso. Su diseño simple y visual hace que sea fácil ver los días clave y mantenerse organizado.
+
+---
+
+## 🚀 Instalación y ejecución
+
+1. Instalar dependencias:
+
+```bash
+npm install
+```
+
+2. Ejecutar en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+3. Construir para producción:
+
+```bash
+npm run build
+```
