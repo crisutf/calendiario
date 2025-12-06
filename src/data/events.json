@@ -1,35 +1,132 @@
 [
-  {"date":"2025-12-02","title":"Examen Física y Química","type":"exam"},
-  {"date":"2025-12-02","title":"Entregar Proyecto Biología","type":"event"},
-  {"date":"2025-12-05","title":"Entrega Ejercicios Tecnologia","type":"event"},
-  {"date":"2025-12-05","title":"Entregar Trabajo voluntario de Biología","type":"event"},
-  {"date":"2025-12-05","title":"Examen Recuperación Tema 1 y 2 de Matemáticas","type":"exam"},
-  {"date":"2025-12-05","title":"Revisión Cuadernos Física y Química","type":"event"},
-  {"date":"2025-12-04","title":"TEST Tecnologia","type":"exam"},
-  {"date":"2025-12-05","title":"Revisión Cuadernos Biología","type":"event"},
-  {"date":"2025-12-06","title":"Día de la Constitución","type":"holiday"},
-  {"date":"2025-12-08","title":"Inmaculada Concepción","type":"holiday"},
-  {"date":"2025-12-09","title":"Examen Tecnologia","type":"exam"},
-  {"date":"2025-12-09","title":"Examen Biología","type":"exam"},
-  {"date":"2025-12-10","title":"Revisión Cuadernos Biología (Para los que no les nombraron)","type":"event"},
-  {"date":"2025-12-10","title":"Examen Lengua","type":"exam"},
-  {"date":"2025-12-11","title":"Examen Matemáticas: Ecuaciones de 1.º y 2.º grado","type":"exam"},
-  {"date":"2025-12-12","title":"Examen Inglés","type":"exam"},
-  {"date":"2025-12-12","title":"Examen Lectura Libro","type":"exam"},
-  {"date":"2025-12-15","title":"Examen Geografia e Historia","type":"exam"},
-  {"date":"2025-12-19","title":"Vacaciones de Navidad","type":"holiday"},
-  {"date":"2025-12-20","title":"Inicio Vacaciones de Navidad","type":"holiday"},
-  {"date":"2025-12-24","title":"Nochebuena","type":"holiday"},
-  {"date":"2025-12-25","title":"Navidad","type":"holiday"},
-  {"date":"2025-12-31","title":"Nochevieja","type":"holiday"},
-  {"date":"2026-01-01","title":"Año Nuevo","type":"holiday"},
-  {"date":"2026-01-06","title":"Reyes","type":"holiday"},
-  {"date":"2026-01-07","title":"No hay colegio","type":"holiday"}
+    {
+        "date": "2025-12-02",
+        "title": "Examen Física y Química",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-02",
+        "title": "Entregar Proyecto Biología",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Entrega Ejercicios Tecnologia",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Entregar Trabajo voluntario de Biología",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Examen Recuperación Tema 1 y 2 de Matemáticas",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Revisión Cuadernos Física y Química",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-04",
+        "title": "TEST Tecnologia",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-05",
+        "title": "Revisión Cuadernos Biología",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-06",
+        "title": "Día de la Constitución",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-08",
+        "title": "Inmaculada Concepción",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-09",
+        "title": "Examen Tecnologia",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-09",
+        "title": "Examen Biología",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-10",
+        "title": "Revisión Cuadernos Biología (Para los que no les nombraron)",
+        "type": "event"
+    },
+    {
+        "date": "2025-12-10",
+        "title": "Examen Lengua",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-11",
+        "title": "Examen Matemáticas: Ecuaciones de 1.º y 2.º grado",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-12",
+        "title": "Examen Inglés",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-12",
+        "title": "Examen Lectura Libro",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-15",
+        "title": "Examen Geografia e Historia",
+        "type": "exam"
+    },
+    {
+        "date": "2025-12-19",
+        "title": "Vacaciones de Navidad",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-20",
+        "title": "Inicio Vacaciones de Navidad",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-24",
+        "title": "Nochebuena",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-25",
+        "title": "Navidad",
+        "type": "holiday"
+    },
+    {
+        "date": "2025-12-31",
+        "title": "Nochevieja",
+        "type": "holiday"
+    },
+    {
+        "date": "2026-01-01",
+        "title": "Año Nuevo",
+        "type": "holiday"
+    },
+    {
+        "date": "2026-01-06",
+        "title": "Reyes",
+        "type": "holiday"
+    },
+    {
+        "date": "2026-01-07",
+        "title": "No hay colegio",
+        "type": "holiday"
+    }
 ]
-
-
-
-
-
-
-

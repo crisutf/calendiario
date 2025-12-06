@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { format, isSameMonth, isToday } from 'date-fns';
 import { cn } from '../lib/utils';
 
-export function DayCell({ date, currentMonth, events = [], onClick }) {
+export const DayCell = memo(function DayCell({ date, currentMonth, dayEvents = [], onClick }) {
     const isCurrentMonth = isSameMonth(date, currentMonth);
     const isDayToday = isToday(date);
 
-    // Filter events for this day
-    const dayEvents = events.filter(event =>
-        format(event.date, 'yyyy-MM-dd') === format(date, 'yyyy-MM-dd')
-    );
+    // Limit visible events for performance and aesthetics
+    const MAX_VISIBLE_EVENTS = 3;
+    const visibleEvents = dayEvents.slice(0, MAX_VISIBLE_EVENTS);
+    const hiddenCount = dayEvents.length - MAX_VISIBLE_EVENTS;
 
     return (
         <div
@@ -31,8 +31,8 @@ export function DayCell({ date, currentMonth, events = [], onClick }) {
                 </span>
             </div>
 
-            <div className="space-y-1 overflow-y-auto max-h-[calc(100%-2rem)] scrollbar-hide">
-                {dayEvents.map((event, idx) => (
+            <div className="space-y-1 overflow-hidden">
+                {visibleEvents.map((event, idx) => (
                     <div key={idx} className={cn(
                         "text-[10px] sm:text-xs px-2 py-1 rounded-md truncate transition-all border shadow-sm",
                         event.type === 'exam' ? "bg-red-100/90 text-red-800 border-red-200 hover:bg-red-200" :
@@ -42,7 +42,12 @@ export function DayCell({ date, currentMonth, events = [], onClick }) {
                         {event.title}
                     </div>
                 ))}
+                {hiddenCount > 0 && (
+                    <div className="text-[10px] text-gray-500 font-medium pl-1">
+                        +{hiddenCount} más
+                    </div>
+                )}
             </div>
         </div>
     );
-}
+});

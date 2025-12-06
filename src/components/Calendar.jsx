@@ -8,12 +8,17 @@ import { EventModal } from './EventModal';
 import { useThemeMode } from '../hooks/useThemeMode';
 import { NotificationManager } from './NotificationManager';
 
+import { groupEventsByDate } from '../utils/eventUtils';
+
 export function Calendar() {
     const { currentDate, events } = useCalendar();
     const [selectedDate, setSelectedDate] = React.useState(null);
     const [isModalOpen, setIsModalOpen] = React.useState(false);
 
     const theme = useThemeMode(currentDate, events);
+
+    // Optimize: Group events by date once when events change
+    const eventsByDate = React.useMemo(() => groupEventsByDate(events), [events]);
 
     const monthStart = startOfMonth(currentDate);
     const monthEnd = endOfMonth(monthStart);
@@ -61,15 +66,18 @@ export function Calendar() {
 
                 {/* Calendar Grid */}
                 <div className="grid grid-cols-7 bg-white/40 backdrop-blur-sm">
-                    {days.map((day, idx) => (
-                        <DayCell
-                            key={idx}
-                            date={day}
-                            currentMonth={currentDate}
-                            events={events}
-                            onClick={handleDayClick}
-                        />
-                    ))}
+                    {days.map((day, idx) => {
+                        const dateKey = format(day, 'yyyy-MM-dd');
+                        return (
+                            <DayCell
+                                key={idx}
+                                date={day}
+                                currentMonth={currentDate}
+                                dayEvents={eventsByDate[dateKey] || []}
+                                onClick={handleDayClick}
+                            />
+                        );
+                    })}
                 </div>
             </div>
 
