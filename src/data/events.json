@@ -1,5 +1,4 @@
 [
-  {"date":"2025-12-08","title":"Inmaculada Concepción","type":"holiday"},
   {"date":"2025-12-09","title":"Examen Tecnologia","type":"exam"},
   {"date":"2025-12-09","title":"Examen Biología","type":"exam"},
   {"date":"2025-12-10","title":"Revisión Cuadernos Biología (Para los que no les nombraron)","type":"event"},
@@ -16,4 +15,5 @@
   {"date":"2026-01-01","title":"Año Nuevo","type":"holiday"},
   {"date":"2026-01-06","title":"Reyes","type":"holiday"}
 ]
+
 
