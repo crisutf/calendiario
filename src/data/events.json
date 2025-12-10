@@ -1,6 +1,4 @@
 [
-  {"date":"2025-12-10","title":"Revisión Cuadernos Biología (Para los que no les nombraron)","type":"event"},
-  {"date":"2025-12-10","title":"Examen Lengua","type":"exam"},
   {"date":"2025-12-11","title":"Examen Matemáticas: Ecuaciones de 1.º y 2.º grado","type":"exam"},
   {"date":"2025-12-12","title":"Examen Inglés","type":"exam"},
   {"date":"2025-12-12","title":"Examen Lectura Libro","type":"exam"},
@@ -14,4 +12,5 @@
   {"date":"2026-01-01","title":"Año Nuevo","type":"holiday"},
   {"date":"2026-01-06","title":"Reyes","type":"holiday"}
 ]
+
 
